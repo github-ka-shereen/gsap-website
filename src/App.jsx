@@ -12,14 +12,14 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 
 function App() {
   return (
-    <main>
+    <main className='overflow-hidden'>
       <Navbar />
       <Hero />
       <Cocktails />
       <About />
       <Art />
       <Menu />
-      <Contact/>
+      <Contact />
     </main>
   );
 }
